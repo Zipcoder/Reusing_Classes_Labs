@@ -5,8 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>battin.preston</groupId>
-    <artifactId>Reusing_Classes_Labs</artifactId>
+    <artifactId>AccessControl</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+    </dependencies>
 
 
     <build>
@@ -22,5 +31,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>

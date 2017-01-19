@@ -8,23 +8,8 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-// create array list object
-    /*    List numbers = new ArrayList();
 
-
-        // populate the list
-        for (int i = 0; i < 15; i++) {
-            numbers.add(i);
-        }
-
-        System.out.println("Before : "+ Arrays.toString(numbers.toArray()));
-
-        // rotate the list at distance 10
-        Collections.rotate(numbers, 5);
-
-        System.out.println("After : "+Arrays.toString(numbers.toArray()));
-    }
-    */
+        //Rotate Array
 
         List number = new ArrayList();
 
@@ -35,6 +20,36 @@ public class Main {
         RotateArray rotate = new RotateArray();
         System.out.println("after rotation");
         rotate.swapList(number, 5);
+
+
+        //Human Class
+
+        Human person = new Human("Kent Klark", "Male", "Bus Boy", "101 Wazoo Lane", 23);
+        SuperHero superHero = new SuperHero("Kevin", "Female", "Cheer Leader", "454 Hello World Lane", 20, "Good",
+                "Kelly Frost", "Laser Vision");
+
+        person.getName();
+        person.getGender();
+        person.getOccupation();
+        person.getAddress();
+        person.getAge();
+
+        superHero.getName();
+        superHero.getGender();
+        superHero.getOccupation();
+        superHero.getAddress();
+        superHero.getAge();
+        superHero.getSide();
+        superHero.getHeroName();
+        superHero.getAbility();
+
+        //Class Manager
+
+
+
+
+
+
 
 
     }
