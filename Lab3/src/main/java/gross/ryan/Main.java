@@ -14,4 +14,5 @@ public class Main {
         System.out.println(bestBuyInventory.totalInventoryValue());
         System.out.println(bestBuyInventory.checkItem(567003));
     }
+
 }
