@@ -26,6 +26,7 @@ public class CheckingAccount extends Account {
         this.balance -= amount;
     }
 
+    @Override
     public double getBalance(){
 
         return super.getBalance();
@@ -36,6 +37,7 @@ public class CheckingAccount extends Account {
         return this.checkingAccountNumber;
     }
 
+    @Override
     public String getAccountName(){
 
         return super.getAccountName();

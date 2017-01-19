@@ -28,6 +28,7 @@ public class BusinessAccount extends Account{
         this.balance -= amount;
     }
 
+    @Override
     public double getBalance(){
 
         return super.getBalance();
@@ -38,6 +39,7 @@ public class BusinessAccount extends Account{
         return this.businessAccountNumber;
     }
 
+    @Override
     public String getAccountName(){
 
         return super.getAccountName();

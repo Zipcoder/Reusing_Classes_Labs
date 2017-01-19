@@ -29,6 +29,7 @@ public class SavingsAccount extends Account {
         this.balance -= amount;
     }
 
+    @Override
     public double getBalance(){
 
         return super.getBalance();
@@ -39,6 +40,7 @@ public class SavingsAccount extends Account {
         return this.savingsAccountNumber;
     }
 
+    @Override
     public String getAccountName(){
 
         return super.getAccountName();
