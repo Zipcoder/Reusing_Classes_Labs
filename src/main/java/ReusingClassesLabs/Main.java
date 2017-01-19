@@ -32,6 +32,17 @@ public class Main {
     System.out.println(steve.getAlignment());
     stacy.setGender("N/A"); //unable to set SuperHuman fields.
     System.out.println(stacy.getGender());
+
+    Product pepsi = new Product("pepsi",3.99, 500);
+    Product popcorn = new Product("popcorn", 2.50, 3000);
+    Product skittles = new Product("skittles", 4.95, 1000);
+    InventoryManager theaterInventoryList = new InventoryManager();
+    theaterInventoryList.addToInventory(pepsi);
+    theaterInventoryList.addToInventory(popcorn);
+    theaterInventoryList.addToInventory(skittles);
+    System.out.print( "Total: " + theaterInventoryList.sumOfInventory());
+
     }
+
 }
 
